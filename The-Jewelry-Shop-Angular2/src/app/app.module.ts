@@ -40,8 +40,8 @@ import { SharedModule } from './shared/shared.module';
     FormsModule,
     HttpModule,
     NgbModule.forRoot(), 
-    AppRoutingModule, 
-    SharedModule
+    SharedModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
