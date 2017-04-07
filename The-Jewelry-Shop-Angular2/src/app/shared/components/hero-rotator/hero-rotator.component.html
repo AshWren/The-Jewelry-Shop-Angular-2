@@ -1,23 +1,39 @@
-<ngb-carousel>
+    <!--<ol class="carousel-indicators">
+      <li *ngFor="let slide of slides" [id]="slide.id" [class.active]="slide.id === activeId" (click)="cycleToSelected(slide.id)"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div *ngFor="let slide of slides" class="carousel-item" [class.active]="slide.id === activeId">
+        <template [ngTemplateOutlet]="slide.tplRef"></template>
+      </div>
+    </div>
+    <a class="left carousel-control-prev" role="button" (click)="cycleToPrev()">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control-next" role="button" (click)="cycleToNext()">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>-->
+    <ngb-carousel>
   <template ngbSlide>
-    <img src="http://lorempixel.com/900/500?r=4" alt="Random first slide">
+    <img src="http://lorempixel.com/900/500?r=1" alt="Random first slide">
     <div class="carousel-caption">
-      <h3>10 seconds between slides...</h3>
-      <p>This carousel uses customized default values.</p>
+      <h3>First slide label</h3>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
     </div>
   </template>
   <template ngbSlide>
-    <img src="http://lorempixel.com/900/500?r=5"  alt="Random second slide">
+    <img src="http://lorempixel.com/900/500?r=2" alt="Random second slide">
     <div class="carousel-caption">
-      <h3>No keyboard...</h3>
-      <p>This carousel uses customized default values.</p>
+      <h3>Second slide label</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
   </template>
   <template ngbSlide>
-    <img src="http://lorempixel.com/900/500?r=6" alt="Random third slide">
+    <img src="http://lorempixel.com/900/500?r=3" alt="Random third slide">
     <div class="carousel-caption">
-      <h3>And no wrap after last slide.</h3>
-      <p>This carousel uses customized default values.</p>
+      <h3>Third slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </div>
   </template>
 </ngb-carousel>
