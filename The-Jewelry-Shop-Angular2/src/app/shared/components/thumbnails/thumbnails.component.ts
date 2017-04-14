@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Jewelry } from '../../../shared/jewelryclass';
+import { JEWELRY } from '../../../shared/data/jewelry';
+import { JewelryService } from '../../../shared/services/jewelry.service';
 
 @Component({
   selector: 'app-thumbnails',
@@ -7,9 +10,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ThumbnailsComponent implements OnInit {
 
+  jewelry: Jewelry []
+
+  @Input() jewel;
+  
+
   constructor() { }
 
   ngOnInit() {
+    this.jewelry = JEWELRY;
+    
   }
 
 }

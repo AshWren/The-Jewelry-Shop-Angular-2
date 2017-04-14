@@ -1,3 +1,11 @@
-<p>
-  thumbnails works!
-</p>
+<div>
+  <a [routerLink]="['/details',jewel?.id]">
+    <img src="{{jewel?.imgSrc}}" alt="{{jewel?.itemName}}" />
+  </a>
+</div>
+<div>
+  <a [routerLink]="['/details',jewel?.id]">
+    <h2>{{jewel?.itemName}}</h2>
+  </a>
+</div>
+

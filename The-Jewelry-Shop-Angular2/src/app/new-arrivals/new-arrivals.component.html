@@ -1,3 +1,11 @@
 <app-header></app-header>
+<div>
+    <ul >
+        <li *ngFor = "let jewel of jewelry | slice: 0:6; let i=index" >
+
+            <app-thumbnails [jewel]="jewel"></app-thumbnails>
+        </li>
+    </ul>
+</div>
 
 <app-footer></app-footer>

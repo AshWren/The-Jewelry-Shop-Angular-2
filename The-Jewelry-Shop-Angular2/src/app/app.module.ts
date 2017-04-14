@@ -41,7 +41,8 @@ import { SharedModule } from './shared/shared.module';
     HttpModule,
     NgbModule.forRoot(), 
     SharedModule,
-    AppRoutingModule
+    AppRoutingModule, 
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
