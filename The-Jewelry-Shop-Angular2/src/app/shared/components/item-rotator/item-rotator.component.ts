@@ -12,11 +12,16 @@ declare var jQuery:any;
   styleUrls: ['./item-rotator.component.scss']
 })
 export class ItemRotatorComponent implements OnInit {
-
+jewelry: Jewelry [] ;
+ 
+ 
   constructor() { }
 
   ngOnInit() {
+    this.jewelry = JEWELRY;
+  window.setTimeout(function(){
     jQuery(".slick").slick();
+  }, 200)
   }
 
 }
