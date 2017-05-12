@@ -1,5 +1,13 @@
+@import "~variables.scss";
 .new-arrivals {
-    h2 {
-        text-align: center;
-    }
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #fcfcff;
+  border: 1px solid #380679;
+  h1 {
+    text-align: center;
+    font-family: $font1;
+    color: #380679;
+  }
 }

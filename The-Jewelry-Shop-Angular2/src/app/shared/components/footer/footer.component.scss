@@ -1,7 +1,8 @@
+@import "~variables.scss";
 footer {
-    text-align: center;
-    padding: 10px;
-    margin: 20px auto;
+  text-align: center;
+  padding: 10px;
+  margin: 20px auto;
   .info {
     padding: 0px;
     margin: 0 auto;
@@ -12,20 +13,25 @@ footer {
     }
   }
   .hours {
-      h2 {
-          text-transform: uppercase;
-          font-weight: bold;
-          color: #380679;
-      }
+    h2 {
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #380679;
+      font-family: $font2;
+    }
     ul {
-        padding: 0px;
-        margin: 0 auto;
+      padding: 0px;
+      margin: 0 auto;
       li {
         padding: 0;
         margin: 0;
         p {
           padding: 0;
           margin: 0;
+          font-family: $font3;
+          span {
+            font-family: $font1;
+          }
         }
       }
     }
@@ -35,25 +41,28 @@ footer {
       padding: 0;
       margin: 0;
       li {
-         
-          a {
-              color: #380679;
-              text-decoration: none;
-              font-size: 30px;
-          }
+        a {
+          color: #380679;
+          text-decoration: none;
+          font-size: 30px;
+        }
       }
     }
   }
   .location {
-       h2 {
-          text-transform: uppercase;
-         font-weight: bold;
-          color: #380679;
-        
-      }
+    h2 {
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #380679;
+      font-family: $font2;
+    }
+    h4 {
+      font-family: $font1;
+    }
     p {
       padding: 0;
       margin: 0;
+      font-family: $font3;
     }
   }
 }

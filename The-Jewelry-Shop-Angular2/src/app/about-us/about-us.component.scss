@@ -1,13 +1,38 @@
-.image {
-    display: flex;
-  
-    
-    img {
-        max-width: 75%;
-        margin: 0px auto;
-    }
+@import "~variables.scss";
+.about {
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #fcfcff;
+  border: 1px solid #380679;
 }
 
-h1, p {
-    text-align: center;
+.row {
+  .col-sm-10 {
+    margin: 0 auto;
+    h1 {
+      text-align: center;
+      font-family: $font1;
+      color: #380679;
+    }
+    p {
+      font-family: $font3;
+    }
+  }
+}
+
+.row {
+  width: 100%;
+  .image {
+    margin: 0 auto;
+    img {
+      max-width: 80%;
+      margin: 5px 10%;
+    }
+  }
+}
+
+h1,
+p {
+  text-align: center;
 }

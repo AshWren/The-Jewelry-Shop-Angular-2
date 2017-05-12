@@ -11,11 +11,6 @@ import { ThumbnailsComponent } from './components/thumbnails/thumbnails.componen
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
 import { AppRoutingModule } from '../../app/app-routing.module';
 
-
-//import { NgbSlide } from '../shared/components/hero-rotator/hero-rotator.component'
-//import {NGB_CAROUSEL_DIRECTIVES} from '../shared/components/hero-rotator/hero-rotator.component'
-
-
 @NgModule({
   imports: [
     CommonModule,
@@ -28,9 +23,7 @@ import { AppRoutingModule } from '../../app/app-routing.module';
     HeroRotatorComponent, 
     ItemRotatorComponent, 
     ThumbnailsComponent, 
-    SearchBarComponent//, 
-    //NgbSlide
-    //NGB_CAROUSEL_DIRECTIVES
+    SearchBarComponent
   ],
   declarations: [
     HeaderComponent, 
@@ -38,9 +31,8 @@ import { AppRoutingModule } from '../../app/app-routing.module';
     HeroRotatorComponent, 
     ItemRotatorComponent, 
     ThumbnailsComponent, 
-    SearchBarComponent,  
-    //NgbSlide
-   //NGB_CAROUSEL_DIRECTIVES
+    SearchBarComponent
   ]
 })
+
 export class SharedModule { }
