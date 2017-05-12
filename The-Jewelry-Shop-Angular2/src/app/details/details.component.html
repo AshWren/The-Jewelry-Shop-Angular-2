@@ -1,27 +1,15 @@
 <app-header></app-header>
-<div>
-  <div class="title">
-    <img src="../../assets/images/flourish.png" alt="flourish">
+<div class="details">
+  <div class="row">
+  <div class="image col-sm-5" >
+    <img src="{{jewelry?.imgSrc}}" alt="{{jewelry?.itemName}}" />
+  </div>
+  <div class="item-details col-sm-5">
     <h1>{{jewelry?.itemName}}</h1>
-    <img src="../../assets/images/flourish.png" alt="flourish">
+    <h2>~{{jewelry?.artistName}}~</h2>
+    <h4>{{jewelry?.itemPrice}}</h4>
+    <p>{{jewelry?.desc}}</p>
   </div>
-  <div class="item-details">
-    <div class="col-sm-6 main-image">
-      <img src="{{jewelry?.imgSrc}}" alt="{{jewelry?.itemName}}" />
-    </div>
-    <div class="col-sm-6 details">
-      <div class="artist-name">
-        <h3><span>Made By: </span>{{jewelry?.artistName}}</h3>
-      </div>
-      <div class="desc">
-        <h5>{{jewelry?.desc}}</h5>
-      </div>
-      <div class="price">
-        <h2>{{jewelry?.itemPrice}}</h2>
-      </div>
-    </div>
-  </div>
-
-
+</div>
 </div>
 <app-footer></app-footer>

@@ -1,10 +1,8 @@
 <div>
-  <ul class="slick" >
-    <!--<li>Things</li>
-    <li>things2</li>
-    <li>Things3</li>-->
-    <li *ngFor="let jewel of jewelry | slice: 0:6; let i=index">
-      <app-thumbnails [jewel]="jewel"></app-thumbnails>
+
+  <ul class="slick row" >
+    <li class="col-sm-4" *ngFor="let jewel of jewelry | slice: 0:6; let i=index">
+      <app-thumbnails  [jewel]="jewel"></app-thumbnails>
     </li>
   </ul>
 

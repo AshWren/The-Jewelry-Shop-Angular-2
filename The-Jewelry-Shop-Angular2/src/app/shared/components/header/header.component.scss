@@ -1,79 +1,54 @@
 header {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
- }
-
-nav {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  ul {
-    padding: 0px;
-    margin: 0px;
-    li {
-      list-style-type: none;
-      background-image: url("../../../../assets/images/backgroundforlinks3.png");
-      background-size: 100%;
-      background-repeat: no-repeat;
-      background-position: center center;
-      margin: 5px;
-      display: flex;
-      flex-direction: column;
-      align-content: center;
-      justify-content: center;
-      a {
-        text-decoration: none;
-        overflow: hidden;
-        color: #fff;
-        padding: 30px;
-        text-align: center;
-        margin: 5px;
-      }
-    }
-  }
-}
-
-.logo img {
-  width: 150px;
-}
-
-@media screen and (min-width: 768px) {
-  nav {
-    ul {
-      display: flex;
+  .logo-img {
+    padding: 0;
+    img {
       width: 100%;
-      justify-content: center;
-      text-align: center;
+    }
+  }
+  nav {
+    padding: 0px;
+    ul {
+      display: table;
+      width: 90%;
+      padding: 0px;
+      float: left;
+      height: 100%;
+      margin: 0;
       li {
-        flex-grow: 1;
-        flex-basis: 50%;
+        display: table-cell;
+        vertical-align: middle;
+        height: 100%;
+        list-style-type: none;
+        background-image: url("../../../../assets/images/background3.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin: 0px;
+        a {
+          text-decoration: none;
+          color: #fff;
+          padding: 30px 40px;
+          text-align: center;
+          margin: 0px;
+          height: 100%;
+        }
       }
     }
-    // .navLeft {
-    //     display: flex;
-    //     flex-direction: row;
-    //}
   }
 }
 
-@media screen and (min-width: 992px) {
-  nav {
-    flex-direction: row;
-    ul {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
+@media screen and (max-width: 768px) {
+  header {
+    .logo-img {
+      width: 60%;
+      margin: 0 auto;
     }
-    //.navLeft {
-    //    order: 1;
-    //}
-    //a {
-    //    order: 3;
-    //}
-    // .navRight {
-    //    order: 3;
-    // }
+    nav {
+      margin: 5px auto;
+      ul {
+        display: block;
+        width: 100%;
+      }
+    }
   }
 }
