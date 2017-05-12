@@ -6,12 +6,20 @@ footer {
     ul {
         li {
             list-style-type: none;
+            p {
+                padding: 0px;
+                margin: 0px;
+            }
         }
     }
 
     .location {
         padding: 10px;
         margin: 10px;
+        p {
+            padding: 0px;
+            margin: 0px;
+        }
     }
 
     .social {

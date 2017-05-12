@@ -1,0 +1,26 @@
+.title {
+    display: flex;
+    justify-content: center;
+  text-align: center;
+  padding: 10px;
+  img {
+    height: 50px;
+  }
+}
+
+.item-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .artist-name {
+    padding: 20px 0px;
+    span {
+      color: #60005d;
+    }
+  }
+  .main-image {
+    img {
+      width: 100%;
+    }
+  }
+}
