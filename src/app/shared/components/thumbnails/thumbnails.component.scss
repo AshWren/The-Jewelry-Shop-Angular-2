@@ -1,0 +1,30 @@
+.thumbnail {
+  position: relative;
+  
+  padding: 10px;
+  margin: 10px auto;
+  .thumb-img {
+    padding: 0px;
+    
+    a {
+      img {
+        max-width: 100%;
+        max-height: 200px;
+        
+      }
+      .background {
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        bottom: 10px;
+        //left: 0;
+        width: 100%;
+        text-align: center;
+        h3{
+            font-size: 22px;
+            color: #fff;
+            padding: 5px;
+        }
+      }
+    }
+  }
+}
