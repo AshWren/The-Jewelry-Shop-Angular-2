@@ -10,6 +10,7 @@ import { ItemRotatorComponent } from './components/item-rotator/item-rotator.com
 import { ThumbnailsComponent } from './components/thumbnails/thumbnails.component';
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
 import { AppRoutingModule } from '../../app/app-routing.module';
+import { SlideComponent } from './slide/slide.component';
 
 //import { NgbSlide } from '../shared/components/hero-rotator/hero-rotator.component'
 //import {NGB_CAROUSEL_DIRECTIVES} from '../shared/components/hero-rotator/hero-rotator.component'
@@ -37,7 +38,7 @@ import { AppRoutingModule } from '../../app/app-routing.module';
     HeroRotatorComponent, 
     ItemRotatorComponent, 
     ThumbnailsComponent, 
-    SearchBarComponent, 
+    SearchBarComponent, SlideComponent, 
     //NgbSlide
    //NGB_CAROUSEL_DIRECTIVES
   ]

@@ -1,9 +1,15 @@
 <app-header></app-header>
-<div>
-
-  <div class="col-sm-6 " >
+<div class="details">
+  <div class="row">
+  <div class="image col-sm-5" >
     <img src="{{jewelry?.imgSrc}}" alt="{{jewelry?.itemName}}" />
   </div>
-
+  <div class="item-details col-sm-5">
+    <h1>{{jewelry?.itemName}}</h1>
+    <h2>~{{jewelry?.artistName}}~</h2>
+    <h4>{{jewelry?.itemPrice}}</h4>
+    <p>{{jewelry?.desc}}</p>
+  </div>
+</div>
 </div>
 <app-footer></app-footer>

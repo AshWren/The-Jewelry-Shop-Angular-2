@@ -10,7 +10,7 @@ import { JewelryService } from '../../../shared/services/jewelry.service';
 })
 export class ThumbnailsComponent implements OnInit {
 
-  jewelry: Jewelry []
+  jewelry: Jewelry [];
 
   @Input() jewel;
   
