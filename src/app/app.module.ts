@@ -36,10 +36,10 @@ import { SharedModule } from './shared/shared.module';
     //ThumbnailsComponent
   ],
   imports: [
+    NgbModule.forRoot(), 
     BrowserModule,
     FormsModule,
     HttpModule,
-    NgbModule.forRoot(), 
     SharedModule,
     AppRoutingModule, 
     

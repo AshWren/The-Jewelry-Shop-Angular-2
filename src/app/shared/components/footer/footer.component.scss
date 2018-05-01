@@ -1,70 +1,66 @@
 @import "~variables.scss";
 footer {
-  text-align: center;
-  padding: 10px;
-  margin: 20px auto;
+  color: #fff;
+  font-family: $body;
+  width: 100%;
+
+  p {
+    padding: 0;
+    margin: 0;
+  }
+
   .info {
-    padding: 0px;
-    margin: 0 auto;
-  }
-  ul {
-    li {
-      list-style-type: none;
-    }
-  }
-  .hours {
-    h2 {
-      text-transform: uppercase;
-      font-weight: bold;
-      color: #380679;
-      font-family: $font2;
-    }
-    ul {
-      padding: 0px;
-      margin: 0 auto;
-      li {
-        padding: 0;
+    padding: 10px 10px 0 10px;
+    background: #380679;
+    display: flex;
+    justify-content: space-around;
+
+    .hours {
+      display: flex;
+      flex-direction: column;
+      h2 {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: $head;
+        font-size: 24px;
+      }
+
+      h4 {
+        font-size: 16px;
+        font-weight: bold;
         margin: 0;
-        p {
-          padding: 0;
-          margin: 0;
-          font-family: $font3;
-          font-size: 16px;
-          span {
-            font-family: $font1;
-            font-size: 18px;
+        padding-top: 5px;
+      }
+    }
+
+        .social {
+          ul {
+            li {
+              a {
+                font-size: 30px;
+                text-decoration: none;
+                color: #fff;
+              }
+            }
           }
         }
+
+    .location {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      h2 {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 24px;
+        font-family: $head;
       }
+
+
     }
   }
-  .social {
-    ul {
-      padding: 0;
-      margin: 0;
-      li {
-        a {
-          color: #380679;
-          text-decoration: none;
-          font-size: 30px;
-        }
-      }
-    }
-  }
-  .location {
-    h2 {
-      text-transform: uppercase;
-      font-weight: bold;
-      color: #380679;
-      font-family: $font2;
-    }
-    h4 {
-      font-family: $font1;
-    }
-    p {
-      padding: 0;
-      margin: 0;
-      font-family: $font3;
-    }
-  }
+
+
+
+
 }

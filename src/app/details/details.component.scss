@@ -14,20 +14,20 @@
   .item-details {
     margin: 15px;
     h1 {
-      font-family: $font1;
+      font-family: $head;
       color: #380679;
     }
     h2 {
-      font-family: $font3;
+      font-family: $head;
       color: #380679;
       margin: 10px 20px;
     }
     h4 {
-      font-family: $font2;
+      font-family: $body;
       color: #380679;
     }
     p {
-      font-family: $font3;
+      font-family: $body;
     }
   }
 }

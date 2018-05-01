@@ -1,47 +1,38 @@
 @import "~variables.scss";
 header {
-  font-family: $font2;
-  .row{
-    .col-sm-10 {
-      margin: 0 auto;
-    }
+  font-family: $head;
+  .header{
+    margin: 0 auto;
+    padding: 5px;
   }
   .logo-img {
     padding: 0;
     img {
-      width: 80%;
-      margin: 10%;
+      width: 100%;
+      
     }
   }
   nav {
     padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     ul {
-      display: table;
-      width: 90%;
-      padding: 0px;
-      float: left;
-      height: 100%;
-      margin: 0;
+      display: flex;
+      justify-content: space-around;
       li {
-        display: table-cell;
-        vertical-align: middle;
-        height: 100%;
         list-style-type: none;
-        background-image: url("../../../../assets/images/background3.png");
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-position: center center;
-        margin: 0px;
+        background: #380679;
+        margin: 5px;
         a {
           text-decoration: none;
+          text-transform: uppercase;
           color: #fff;
-          padding: 30px 40px;
-          text-align: center;
-          margin: 0px;
-          height: 100%;
+          padding: 20px;
         }
       }
     }
+
   }
 }
 
